@@ -1,0 +1,241 @@
+{
+  "catalogue": [
+    {
+      "name": "Sales & enquiries",
+      "rows": [
+        [
+          "WhatsApp enquiry assistant",
+          "Messages arrive at night, on Sunday, during a festival. They’re seen whenever somebody next opens the phone.",
+          "Every enquiry answered immediately, qualified, and handed to your salesman as a ready lead in the morning."
+        ],
+        [
+          "Follow-up agent",
+          "“I’ll call him tomorrow.” Tomorrow something else comes up.",
+          "Every lead followed up on day 1, day 3, day 7 — until they say yes or no."
+        ],
+        [
+          "Quotation generator",
+          "Two days and three people to send one quotation.",
+          "Your salesman types or speaks the requirement. The quotation goes out in minutes — your rates, your terms, your format, as a PDF on WhatsApp."
+        ],
+        [
+          "Voice agent for missed calls",
+          "Calls ring out when everyone is busy. Nobody knows who called or why.",
+          "Answered in Hindi, Gujarati or whatever your customers speak, the requirement taken, a callback booked."
+        ],
+        [
+          "Price & catalogue assistant",
+          "Your salesman spends the day being a price list.",
+          "Customers get the rate, the photo and the specification instantly — he gets his day back for selling."
+        ],
+        [
+          "CRM that fills itself",
+          "Nobody updates it, so the pipeline exists only in people’s heads.",
+          "Calls and WhatsApp conversations become CRM entries on their own. You can finally see what’s really in the pipeline."
+        ]
+      ]
+    },
+    {
+      "name": "Accounts & collections",
+      "rows": [
+        [
+          "Payment follow-up agent",
+          "Chasing money is awkward, so it slips. 60 days becomes 90, becomes 120.",
+          "Every overdue customer reminded on schedule, escalating in tone, in your company’s name. A list every morning of who paid and who didn’t."
+        ],
+        [
+          "Invoice & PO reader",
+          "A full salary spent typing vendor invoices into Tally.",
+          "PDF, scan or a photo on WhatsApp — read, checked against the PO, entered. Nobody types them."
+        ],
+        [
+          "Bill & expense processing",
+          "A drawer of bills that gets sorted out at month end.",
+          "Staff photograph a bill. It’s categorised and entered the same minute."
+        ],
+        [
+          "Daily business report",
+          "Two days of Excel work, read a week after it mattered.",
+          "Sales, collections, pending orders and stock in your inbox every morning at 9 — built on its own from your own systems."
+        ]
+      ]
+    },
+    {
+      "name": "Customer support",
+      "rows": [
+        [
+          "Reply assistant",
+          "Your team types the same twenty answers, forever.",
+          "Replies drafted from your own past answers and policies. Your person reads and sends."
+        ],
+        [
+          "Order & delivery status",
+          "“Where is my material?” — asked forty times a day, checked and called back every time.",
+          "Answered instantly from your system, without anyone being interrupted."
+        ],
+        [
+          "Complaint tracking",
+          "A complaint goes quiet, and six months later the customer is gone.",
+          "Every complaint logged, categorised and escalated to you if it isn’t resolved in time."
+        ]
+      ]
+    },
+    {
+      "name": "Operations & dispatch",
+      "rows": [
+        [
+          "Job status from the floor",
+          "Supervisors message updates; somebody else builds a sheet out of them every evening.",
+          "The same WhatsApp updates compile themselves into a live status you can open any time."
+        ],
+        [
+          "Automatic dispatch updates",
+          "Customers call to ask. Staff call back to tell them.",
+          "The customer is told the moment it’s dispatched, with the docket number, without anyone calling anyone."
+        ],
+        [
+          "Stock & reorder alerts",
+          "You find out you’re out of something when an order comes in.",
+          "You’re told before, while there’s still time to do something about it."
+        ]
+      ]
+    },
+    {
+      "name": "HR",
+      "rows": [
+        [
+          "Resume screening",
+          "300 CVs, one person, one week — and most never get opened.",
+          "A ranked shortlist the same day, measured against what the job actually needs."
+        ],
+        [
+          "Onboarding assistant",
+          "Two weeks of chasing documents over WhatsApp.",
+          "Documents collected, forms filled, joining checklist run — without HR chasing anyone."
+        ],
+        [
+          "HR policy assistant",
+          "“How many leaves do I have left?” — ten times a day, to one person.",
+          "Answered instantly from your own policy, so HR gets on with the real work."
+        ]
+      ]
+    },
+    {
+      "name": "For you, the owner",
+      "rows": [
+        [
+          "Your morning brief",
+          "You call three people to find out how yesterday went.",
+          "One WhatsApp every morning: yesterday’s sales, what’s collected, what’s pending, what’s stuck, what needs you."
+        ],
+        [
+          "Ask your business anything",
+          "“How much did we sell to this party last year?” takes an hour and two phone calls.",
+          "You ask. You get the number in seconds."
+        ],
+        [
+          "Company brain",
+          "Every new joiner asks the same ten questions, to whoever is nearest.",
+          "Every SOP, price list, specification and past project, searchable by any staff member."
+        ]
+      ]
+    }
+  ],
+  "timeline": [
+    [
+      "Week 0",
+      "Assessment call. One hour with you and your department heads. We map where the manual work actually is and pick the one worth doing first — usually not the one you walked in thinking about."
+    ],
+    [
+      "Week 1",
+      "Scope and quote. Exactly what we’re building, what it will do, what it costs, when it goes live. One page. Not a forty-slide proposal."
+    ],
+    [
+      "Weeks 2–5",
+      "Build. You see working pieces as we go, so you can say “not like that” while it’s still cheap to change."
+    ],
+    [
+      "Week 6",
+      "Handover and training. Your team uses it with us watching until they don’t need us. We write down how it works for the person who joins next year."
+    ]
+  ],
+  "formats": [
+    [
+      "Half day",
+      "Full day",
+      "Leadership",
+      "Online"
+    ],
+    [
+      "3–4 hrs",
+      "6–7 hrs",
+      "90 min",
+      "2–3 hrs"
+    ],
+    [
+      "One department",
+      "Multiple departments, deeper builds",
+      "What to do, what to ignore, what it costs",
+      "Teams across locations"
+    ]
+  ],
+  "sessions": [
+    [
+      "For business owners",
+      "What AI can actually do in a business like theirs — three real Indian businesses, what they built, what it cost, what broke.",
+      "45–60 min keynote, or 3 hours as a workshop"
+    ],
+    [
+      "For employees",
+      "Using AI properly in the job they already have. Their real tasks, cut down live in front of the room.",
+      "90 min, or half / full day"
+    ],
+    [
+      "For students",
+      "Build an AI agent in 90 minutes. Using AI isn’t a skill any more; building with it still is.",
+      "90 min live build"
+    ],
+    [
+      "For faculty",
+      "Teaching in a room where every student already uses AI — what it changes about assessment, and where it genuinely helps with prep, research and paperwork.",
+      "Half day"
+    ]
+  ],
+  "industries": [
+    {
+      "name": "Manufacturing",
+      "now": "Enquiries at all hours, quotations waiting on production and accounts, dispatch updates chased by phone, payments outstanding.",
+      "build": "Enquiry assistant · quotation generator · dispatch updates · payment follow-up · daily production and sales brief"
+    },
+    {
+      "name": "Distribution & wholesale",
+      "now": "Orders arriving on WhatsApp in fifteen different formats, rate enquiries all day, credit spread across dozens of parties.",
+      "build": "WhatsApp order taking · live price list · credit and collection follow-up · daily stock and outstanding report"
+    },
+    {
+      "name": "Education institutes",
+      "now": "Admission enquiries nobody follows up, counsellors buried in calls, fee reminders sent by hand, parents calling the office for everything.",
+      "build": "Admission enquiry assistant · counselling follow-up · fee reminders · parent communication"
+    },
+    {
+      "name": "Clinics & diagnostic labs",
+      "now": "Appointments taken by phone in office hours only, reports sent manually, patients never called back for the follow-up test.",
+      "build": "Appointment booking · reports on WhatsApp · recall reminders · common query assistant"
+    },
+    {
+      "name": "CAs & consultants",
+      "now": "Half the month spent chasing clients for documents, deadlines tracked in someone’s head, proposals written from scratch every time.",
+      "build": "Document chasing · deadline reminders · proposal and report drafting · client query assistant"
+    },
+    {
+      "name": "Logistics & transport",
+      "now": "Booking enquiries on phone and WhatsApp, “where is my consignment” fifty times a day, PODs chased for weeks.",
+      "build": "Booking assistant · automatic tracking updates · POD collection · invoice reconciliation"
+    },
+    {
+      "name": "Real estate",
+      "now": "Portal leads nobody calls fast enough, site visits scheduled over dozens of messages, follow-up that stops on day two.",
+      "build": "Instant lead response and qualification · site visit scheduling · long-term follow-up · property matching assistant"
+    }
+  ]
+}

@@ -1,40 +1,40 @@
-# PhazeAI website and scroll demo
+# Phaze AI website
 
-Complete static website source, including the immersive 3D scroll demonstration and agency landing-page variants.
+Premium dark website for Phaze AI, an AI implementation partner. Includes automation, employee training, industries, company information and Topmate call booking. Animations stay enabled without a motion toggle.
 
-## Run locally
+## Local development
 
-With Python installed, run from this folder:
+Requires Node.js 22.13 or later.
 
-    python -m http.server 4510 --bind 127.0.0.1
+```sh
+npm ci
+npm run dev -- --port 5191
+```
 
-Open http://localhost:4510/ for the current agency landing page.
-Open http://localhost:4510/experience.html for the 3D scroll demo.
-Open http://localhost:4510/classic.html for the earlier agency design.
+Open http://localhost:5191.
 
-Serve over HTTP: JavaScript modules will not work reliably when HTML is opened directly from disk.
+## Build
 
-## Files
+```sh
+npm run build
+```
 
-- index.html / premium.css: current agency landing page.
-- experience.html / experience.js / experience.css: immersive scroll experience.
-- original-demo.html: retained demo variant.
-- classic.html / app.js / styles.css: earlier agency homepage.
-- assets/: original logo, scene fallback poster and vendored Three.js.
-- scrollcraft.js / scrollcraft.css: Scroll Craft engine.
-- BRIEF.md and DEMO-BRIEF.md: design context.
-- REPORT.md and DEMO-REPORT.md: historical verification records.
+The static website is generated in `dist/client`. Navigation uses normal links, so the exported pages work without a Node.js server. A static host must resolve extensionless paths such as `/how-we-work` to their `.html` files.
 
-No runtime dependency installation is needed. Python serves all variants. The optional `npm run build` command validates and copies only the current agency landing page into dist; it does not bundle the 3D demo. To deploy all variants, publish the source HTML, CSS, JS and assets together on a static host.
+## Hostinger
 
-## Functionality
+`phaze-hostinger.zip` contains the ready-to-upload website, including `.htaccess` for clean page URLs. Extract its contents directly into your domain's `public_html` folder. The ZIP reflects the included source snapshot; rebuild and repackage it after future source edits.
 
-The 3D demo provides scroll-driven scene transitions, waypoint navigation, replay, motion controls and lighter graphics. A poster is shown if WebGL is unavailable. Contact links open email or the existing Calendly booking page. No backend or credentials are included.
+## Editing
 
-## Credits
+- Shared navigation and sections: `components/phaze.tsx`
+- Homepage service cards: `components/experience.tsx`
+- Hero: `components/premium-hero.tsx`
+- Other pages and enquiry forms: `components/content-pages.tsx`
+- Booking destination: `lib/booking.ts`
+- Catalogue content: `lib/content.json`
+- Component attribution: `COMPONENTS.md`
 
-PhazeAI brand/logo: https://www.phazeai.com/
-Scroll Craft: https://github.com/nateherkai/scroll-craft (MIT; SCROLLCRAFT-LICENSE.txt).
-Three.js: https://threejs.org/ (MIT; assets/three/LICENSE).
-Procedural scene artwork was created for this demo. Third-party licenses do not grant rights to the PhazeAI brand.
+Call booking opens Topmate. Training and event forms prepare downloadable enquiries; they are not connected to an inbox. WhatsApp and some company details still have placeholders.
 
+This commit replaces the previous website/demo files. Earlier versions remain available in Git history.
