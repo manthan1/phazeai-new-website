@@ -24,7 +24,6 @@ Serve over HTTP: JavaScript modules will not work reliably when HTML is opened d
 - scrollcraft.js / scrollcraft.css: Scroll Craft engine.
 - BRIEF.md and DEMO-BRIEF.md: design context.
 - REPORT.md and DEMO-REPORT.md: historical verification records.
-- WEBSITE-CONTEXT-AND-ASSETS.md: original research handoff; absolute paths refer to the author's workstation.
 
 No runtime dependency installation is needed. Python serves all variants. The optional `npm run build` command validates and copies only the current agency landing page into dist; it does not bundle the 3D demo. To deploy all variants, publish the source HTML, CSS, JS and assets together on a static host.
 

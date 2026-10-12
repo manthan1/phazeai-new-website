@@ -1,0 +1,12 @@
+node_modules/
+dist/
+lab/
+.openai/
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+WEBSITE-CONTEXT-AND-ASSETS.md
