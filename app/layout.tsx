@@ -8,7 +8,7 @@ import {SiteMotion} from '@/components/site-motion';
 
 export const metadata: Metadata = {
   title: { default: "Phaze AI — AI implementation for Indian businesses", template: "%s | Phaze AI" },
-  description: "Automate enquiries, quotations, follow-ups, invoices and reports. 250+ businesses implemented.",
+  description: "AI implementation, custom agents and employee training. Build practical workflows across your business with Phaze AI.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

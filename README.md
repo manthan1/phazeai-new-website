@@ -1,6 +1,6 @@
 # Phaze AI website
 
-Premium dark website for Phaze AI, an AI implementation partner. Includes automation, employee training, industries, company information and Topmate call booking. Animations stay enabled without a motion toggle.
+Premium dark website for Phaze AI, an AI implementation partner. Includes automation, employee training, industries, company information and an embedded call booking calendar. Animations stay enabled without a motion toggle.
 
 ## Local development
 
@@ -35,6 +35,6 @@ The static website is generated in `dist/client`. Navigation uses normal links, 
 - Catalogue content: `lib/content.json`
 - Component attribution: `COMPONENTS.md`
 
-Call booking opens Topmate. Training and event forms prepare downloadable enquiries; they are not connected to an inbox. WhatsApp and some company details still have placeholders.
+Business, training and event enquiry buttons open /bookings. The page embeds the existing Phaze booking platform. Public contact details and real client proof can be added when supplied; no unfinished placeholders are shown.
 
 This commit replaces the previous website/demo files. Earlier versions remain available in Git history.
